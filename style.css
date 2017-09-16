@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+
+body {
+    background-color: grey;
+}
+
+.panel {
+    top: 25vh;
+}
+
+.container-form {
+    width: 60vw;
+    min-height: 50vh;
+    margin: auto;
+    background-color: lightgrey;
+    margin-top: 25vh;
+}
+
+.container-form:hover {
+    box-shadow: 0 8px 15px rgba(0,0,0,0.4);
+    transition: box-shadow 2s ease;
+}
+
+legend {
+    font-size: 2.2em;
+    color: dimgray;
+    text-shadow: 0 0 0 black;
+
+}
