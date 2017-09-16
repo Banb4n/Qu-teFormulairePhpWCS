@@ -87,7 +87,8 @@ $success = [
                     echo "<div class='alert alert-success'>" . $success['phone'] . $phone . "</div>";
                 } else {
                     echo "<div class='alert alert-danger'>" . $error['phone'] . $phone . "</div>";
-                }            } else {
+                }            
+            } else {
                 echo "<div class='alert alert-danger'>" . $error['phone'] . $phone . "</div>";
             }
 
