@@ -30,7 +30,7 @@
 
         <div class="form-group">
             <label for="subject">Objet du message</label>
-            <select id="subject" name="subject" class="form-control" required="required">
+            <select id="subject" name="subject" class="form-control" required>
                 <option value="Restaurant" selected="">Question sur un restaurant</option>
                 <option value="Aventure">Participez à l'aventure</option>
                 <option value="Presse">Presse</option>
@@ -44,7 +44,7 @@
                 Votre nom et Prénom</label>
             <div class="input-group">
                 <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                <input type="text" class="form-control" name="name" id="name" placeholder="Prénom et nom" required="required" />
+                <input type="text" class="form-control" name="name" id="name" placeholder="Prénom et nom" required />
                 <p class="<?php echo $error[1]; ?>"></p>
             </div>
         </div>
@@ -53,7 +53,7 @@
                 Votre email</label>
             <div class="input-group">
                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Votre adresse email" required="required" />
+                <input type="email" class="form-control" id="email" name="email" placeholder="Votre adresse email" />
             </div>
         </div>
         <div class="form-group">
@@ -62,7 +62,7 @@
             <div class="input-group">
                                     <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
                                     </span>
-                <input type="tel" class="form-control" id="tel" name="tel" placeholder="Votre numéro"  maxlength="14" required="required" />
+                <input type="tel" class="form-control" id="tel" name="tel" placeholder="Votre numéro"  maxlength="14" required />
             </div>
         </div>
 
